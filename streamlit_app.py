@@ -3,7 +3,7 @@ from ingest import ingest_document
 from rag_chain import ask_question
 from pinecone import Pinecone
 from config import PINECONE_API_KEY, PINECONE_INDEX
-
+print("RAG Chatbot started")
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(page_title="RAG AI Assistant", page_icon="🤖")
 
